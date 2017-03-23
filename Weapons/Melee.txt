@@ -1,0 +1,34 @@
+Melee {
+	"Baseball bat" {
+		HitPerMinute = 
+		Weight = 
+		Width = 
+		High = 
+		Length = 
+		Extensions {
+			BarbedWire = true
+		}
+	}
+	"Nightstick" {
+		HitPerMinute = 
+		Weight = 
+		Width = 
+		High = 
+		Length = 
+		Extensions {
+			BarbedWire = false
+		}
+	}
+}
+Crowbar
+Golf club
+Hammer
+Hatchet
+Machete
+Wrench
+Katana
+Axe
+Self made spear
+Hunting Knife
+Knife
+Tactical Knife

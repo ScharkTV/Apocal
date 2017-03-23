@@ -1,0 +1,21 @@
+Attributes {
+	MaxHealth = 100
+	ThirstLevel = 500
+		if (ThirstLevel =< 750) {
+			MaxHealth - 1
+		}
+	HungerLevel = 1000
+		if (HungerLevel =< 1300) {
+			MaxHealth == 0
+		}
+	MaxEndurance = 100
+		if (MaxEndurance => 0) {
+			MaxHealth - 1
+		}
+	MaxWeight = Kilogram = 50
+		if (MaxWeight =< 5) {
+			RunSpeed - (?)
+		}
+	Walkspeed = KilometerPerSecound (?)
+	RunSpeed = KilometerPerSecound (?)
+}

@@ -1,0 +1,420 @@
+Weight = Gramm
+[ Width , High , Length , TubeLength ] = Milimeter
+BulletDropDistance = Meter
+
+Assault_Rifle {
+	"G 36" {
+		ShotPerMinute = 750
+		Weight =  3600
+		Width = 65
+		High = 277
+		Length = 999
+		TubeLength = 480
+		Bayonet = false
+		BulletDropDistance = 800
+		Magazine "G 36" {
+			MaxAmmo = 30
+			Caliber = "5,56 x 45 mm"
+			Weight = 2500
+			Types { CurveMagazine }
+		}
+		Extensions {
+			MuzzleExtension = true
+			Flashlight-Laser = true
+			Grip = true
+			Sight = true
+			Magazine = true
+		}
+	}
+	"AK-47" {
+		ShotPerMinute = 600
+		Weight = 4300
+		Width = "N/A"
+		High = "N/A"
+		Length = 870
+		TubeLength = 415
+		Bayonet = true
+		BulletDropDistance = 1500
+		Magazine "AK-47" {
+			MaxAmmo = 30
+			Caliber = "7,62 x 39 mm"
+			Weight = 3000
+			Types { CurveMagazine , DrumMagazine }
+		}
+		Extensions {
+			MuzzleExtension = true
+			Flashlight-Laser = false
+			Grip = false
+			Sight = true
+			Magazine = true
+		}
+	}
+	"AKs-47u" {
+		ShotPerMinute = 800
+		Weight = 2710
+		Width = "N/A"
+		High = "N/A"
+		Length = 675
+		TubeLength = 200
+		Bayonet = true
+		BulletDropDistance = "N/A"
+		Magazine "AKs-47u" {
+			MaxAmmo = 30
+			Caliber = "5,45 x 39 mm"
+			Weight = "N/A"
+			Types { CurveMagazine }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"AK-108" {
+		ShotPerMinute = 850
+		Weight = 3800
+		Width = "N/A"
+		High = "N/A"
+		Length = 943
+		TubeLength = "N/A"
+		Bayonet = true
+		BulletDropDistance = "N/A"
+		Magazine "AK-108" {
+			MaxAmmo = 30
+			Caliber = "5,56 x 45 mm"
+			Weight = 2500
+			Types { CurveMagazine }
+		}
+		Extensions {
+			MuzzleExtension = true
+			Flashlight-Laser = false
+			Grip = false
+			Sight = true
+			Magazine = true
+		}
+	}
+	"AEK-971" {
+		ShotPerMinute = 900
+		Weight = 3300
+		Width = "N/A"
+		High = "N/A"
+		Length = "N/A"
+		TubeLength = 420
+		Bayonet = true
+		BulletDropDistance = "N/A"
+		Magazine "AEK-971" {
+			MaxAmmo = 30
+			Caliber = "5,45 x 39 mm"
+			Weight = 3000
+			Types { CurveMagazine }
+		}
+		Extensions {
+			MuzzleExtension = true
+			Flashlight-Laser = false
+			Grip = false
+			Sight = true
+			Magazine = true
+		}
+	}
+	"M16A1" {
+		ShotPerMinute = 750
+		Weight = 3500
+		Width = 
+		High = 
+		Length = 
+		TubeLength = 
+		Bayonet = false
+		BulletDropDistance = 
+		Magazine "M16A1" {
+			MaxAmmo = 
+			Caliber = ""
+			Weight = 
+			Types { Default }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"M16A4" {
+		ShotPerMinute = 950
+		Weight = 3800
+		Width = "N/A"
+		High = "N/A"
+		Length = 980
+		TubeLength = 508
+		Bayonet = false
+		BulletDropDistance = 800
+		Magazine "M16A4" {
+			MaxAmmo = 20
+			Caliber = "5,56 x 45 mm"
+			Weight = 2300
+			Types { Default , CurveMagazine , DrumMagazine }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"AUG A3" {
+		ShotPerMinute = 900
+		Weight = 3910
+		Width = "N/A"
+		High = 245
+		Length = 745
+		TubeLength = 508
+		Bayonet = false
+		BulletDropDistance = "N/A"
+		Magazine "AUG A3" {
+			MaxAmmo = 
+			Caliber = "5,56 x 45 mm"
+			Weight = 
+			Types { CurveMagazine }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"HK416 A5" {
+		ShotPerMinute = 850
+		Weight = 3850
+		Width = 74
+		High = 240
+		Length = 1030
+		TubeLength = 505
+		Bayonet = true
+		BulletDropDistance = 1000
+		Magazine "M416" {
+			MaxAmmo = 30
+			Caliber = "5,56 x 45 mm"
+			Weight = 3100
+			Types { CurveMagazine }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"AS VAL" {
+		ShotPerMinute = 900
+		Weight = 2500
+		Width = "N/A"
+		High = "N/A"
+		Length = 875
+		TubeLength = 200
+		Bayonet = false
+		BulletDropDistance = "N/A"
+		Magazine "AS VAL" {
+			MaxAmmo = 20
+			Caliber = "9 x 39 mm"
+			Weight = 2000
+			Types { CurveMagazine }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"FN P90" {
+		ShotPerMinute = 900
+		Weight = 2500
+		Width = 55
+		High = 210
+		Length = 500
+		TubeLength = 250
+		Bayonet = false
+		BulletDropDistance = 
+		Magazine "FN P90" {
+			MaxAmmo = 50
+			Caliber = "5,7 x 28 mm"
+			Weight = 3500
+			Types { Default }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"FAMAS G2" {
+		ShotPerMinute = 1100
+		Weight = 3700
+		Width = "N/A"
+		High = "N/A"
+		Length = 757
+		TubeLength = 488
+		Bayonet = false
+		BulletDropDistance = "N/A"
+		Magazine "FAMAS G2" {
+			MaxAmmo = 30
+			Caliber = "5,56 x 45 mm"
+			Weight = 3000
+			Types { Default }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"SCAR-L MK 16 CQC" {
+		ShotPerMinute = 625
+		Weight = 3000
+		Width = "N/A"
+		High = "N/A"
+		Length = 787
+		TubeLength = 254
+		Bayonet = false
+		BulletDropDistance = 1300
+		Magazine "SCAR-L MK 16 CQC" {
+			MaxAmmo = 30
+			Caliber = "5,45 x 45 mm"
+			Weight = 3000
+			Types { CurveMagazine }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"QBZ-95" {
+		ShotPerMinute = 650
+		Weight = 3250
+		Width = "N/A"
+		High = "N/A"
+		Length = 746
+		TubeLength = 490
+		Bayonet = true
+		BulletDropDistance = "N/A"
+		Magazine "QBZ-95" {
+			MaxAmmo = 30
+			Caliber = "5,8 x 42 mm"
+			Weight = 2500
+			Types { Default }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"SG 553 R LB" {
+		ShotPerMinute = 900
+		Weight = 3000
+		Width = "N/A"
+		High = "N/A"
+		Length = 810
+		TubeLength = 303
+		Bayonet = true
+		BulletDropDistance = "N/A"
+		Magazine "SG 553 R LB" {
+			MaxAmmo = 20
+			Caliber = "7,62 x 39 mm"
+			Weight = 3000
+			Types { Default }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"AR-15" {
+		ShotPerMinute = 
+		Weight = 2770
+		Width = "N/A"
+		High = "N/A"
+		Length = 991
+		TubeLength = 508
+		Bayonet = false
+		BulletDropDistance = 457
+		Magazine "AR-15" {
+			MaxAmmo = 20
+			Caliber = "5,56 x 45 mm"
+			Weight = 2000
+			Types { Default }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"TAR-21" {
+		ShotPerMinute = 900
+		Weight = 3270
+		Width = "N/A"
+		High = "N/A"
+		Length = 720
+		TubeLength = 460
+		Bayonet = false
+		BulletDropDistance = 
+		Magazine "TAR-21" {
+			MaxAmmo = 30
+			Caliber = "5,56 x 45 mm"
+			Weight = 3000
+			Types { Default }
+		}
+		Extensions {
+			MuzzleExtension = 
+			Flashlight-Laser = 
+			Grip = 
+			Sight = 
+			Magazine = 
+		}
+	}
+	"Small survival gun" { // https://www.youtube.com/watch?v=nwPJJD-WCQY
+		ShotPerMinute = "N/A"
+		Weight = 800
+		Width = "N/A"
+		High = "N/A"
+		Length = "N/A"
+		TubeLength = "N/A"
+		Bayonet = false
+		BulletDropDistance = 
+		Magazine "Small survival gun" {
+			MaxAmmo = 1
+			Caliber = ".22 LR"
+			Weight = 5
+			Types { Default }
+		}
+		Extensions {
+			MuzzleExtension = false
+			Flashlight-Laser = true
+			Grip = true
+			Sight = true
+			Magazine = false
+		}
+	}
+}
