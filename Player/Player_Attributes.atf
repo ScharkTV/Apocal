@@ -1,3 +1,5 @@
+MaxWeight = Kilogram
+
 Attributes {
 	MaxHealth = 100
 	ThirstLevel = 500
@@ -12,7 +14,7 @@ Attributes {
 		if (MaxEndurance => 0) {
 			MaxHealth - 1
 		}
-	MaxWeight = Kilogram = 50
+	MaxWeight = 50
 		if (MaxWeight =< 5) {
 			RunSpeed - (?)
 		}
