@@ -55,7 +55,7 @@ Noiseless_Firearms {
 			Sight = false
 		}
 	}
-	"Crossbow" { // 
+	"Crossbow" { // http://pickabow.com/best-crossbow/excalibur-matrix-mega-405-crossbow-review/
 		// ShotPerMinute = 
 		Weight = 
 		Width = 
