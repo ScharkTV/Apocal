@@ -1,28 +1,58 @@
 Melee {
 	"Baseball bat" {
 		HitPerMinute = 
-		Weight = 
-		Width = 
-		High = 
-		Length = 
+		Weight = 800g
+		Width =3-4cm 
+		High = 3-4cm
+		Length = 107cm
 		Extensions {
 			BarbedWire = true
 		}
 	}
 	"Nightstick" {
 		HitPerMinute = 
+		Weight = 300-350g
+		Width = 3-4cm
+		High =3-4cm 
+		Length = 50-70cm
+		Extensions {
+			BarbedWire = true
+		}
+	}
+}
+Crowbar
+HitPerMinute = 
 		Weight = 
 		Width = 
 		High = 
 		Length = 
 		Extensions {
-			BarbedWire = false
+			BarbedWire = N/A
 		}
 	}
 }
-Crowbar
 Golf club
+HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = N/A
+		}
+	}
+}
 Hammer
+HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = N/A
+		}
+	}
+}
 Hatchet
 Machete
 Wrench
