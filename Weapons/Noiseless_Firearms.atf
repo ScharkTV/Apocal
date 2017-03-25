@@ -70,58 +70,58 @@ Noiseless_Firearms {
 }
 AmmoType {
 	Bolts {
-		Diameter = #
+		Diameter = 10
 		Length = 50
 		Types {
 			DefaultBolts {
-				Weight = #
+				Weight = 0.02
 				BrokeChance = 10
 				BulletDropDistance = #
 			}
 			BroadheadBolts {
-				Weight = #
+				Weight = 0.05
 				BrokeChance = 10
 				WeaponDamage = WeaponDamage*2
 				Effect.Bleeding
 				BulletDropDistance = #
 			}
 			PoisonBolts {
-				Weight = #
+				Weight = 0.03
 				BrokeChance = 10
 				Effect.Poison
 				BulletDropDistance = #
 			}
 			ExplosiveBolts {
-				Weight = #
+				Weight = 0.1
 				BrokeChance = 100
 				ExplosiveDamage = #
 				Effect.Bleeding
 				BulletDropDistance = #
 			}
 			SteelBolts {
-				Weight = #
+				Weight = 0.15
 				BrokeChance = 5
 				BulletDropDistance = #
 			}
 		}
 	}
 	Arrows {
-		Diameter = #
-		Length = #
+		Diameter = 10
+		Length = 60
 		Types {
 			DefaultArrows {
-				Weight = #
+				Weight = 0.03
 				BrokeChance = 15
 				BulletDropDistance = #
 			}
 			PoisonArrows {
-				Weight = #
+				Weight = 0.04
 				BrokeChance = 15
 				Effect.Poison
 				BulletDropDistance = #
 			}
 			SelfmadeArrows {
-				Weight = #
+				Weight = 0.08
 				BrokeChance = 25
 				BulletDropDistance = #
 			}
