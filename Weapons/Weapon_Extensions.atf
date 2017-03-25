@@ -1,0 +1,37 @@
+WeapinExtensions {
+	Scopes {
+		Reflex
+		Holo
+		Coyote sight
+		Delta sight
+		Kobra sight
+		M145
+		ACOG
+		PSO-1
+		Prisma scope
+		self made scope 1
+		self made scope 2
+	}
+	TacticalLight && Lasers {
+		Tactical Light
+		Self made light extension
+		Laser sight
+		Green laser sight
+	}
+	MuzzleExtension {
+		PKA-S
+		Flash Hider
+		Compensator
+		Muzzle Brake
+		Suppressor
+		PBS-4 Suppressor
+	}
+	Grips {
+		Angled grip
+		Stubby grip
+		Vertical grip
+		Bipod
+	}
+	M320
+	Bayonet
+}
