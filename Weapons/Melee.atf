@@ -1,4 +1,4 @@
-Melee {
+Melee 
 	"Baseball bat" {
 		HitPerMinute = 
 		Weight = 800g
@@ -9,7 +9,8 @@ Melee {
 			BarbedWire = true
 		}
 	}
-	"Nightstick" {
+}
+"Nightstick" 
 		HitPerMinute = 
 		Weight = 300-350g
 		Width = 3-4cm
@@ -20,19 +21,19 @@ Melee {
 		}
 	}
 }
-Crowbar
-HitPerMinute = 
-		Weight = 
+Crowba
+        HitPerMinute = 
+		Weight = 2,6kg
 		Width = 
 		High = 
-		Length = 
+		Length = 60cm
 		Extensions {
 			BarbedWire = N/A
 		}
 	}
 }
-Golf club
-HitPerMinute = 
+"Golf club""
+        HitPerMinute = 
 		Weight = 
 		Width = 
 		High =
@@ -42,8 +43,8 @@ HitPerMinute =
 		}
 	}
 }
-Hammer
-HitPerMinute = 
+"Hammer"
+        HitPerMinute = 
 		Weight = 
 		Width = 
 		High =
@@ -53,12 +54,116 @@ HitPerMinute =
 		}
 	}
 }
-Hatchet
-Machete
-Wrench
-Katana
-Axe
-Self made spear
-Hunting Knife
-Knife
-Tactical Knife
+"Hatchet"
+        HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = N/A
+		}
+	}
+}
+"Machete"
+        HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = N/A
+		}
+	}
+}
+"Wrench"
+        HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = N/A
+		}
+	}
+}
+"Katana"
+        HitPerMinute = 
+		Weight = 
+		Width = 0,2-0,4cm / 0.1-0.3cm
+		High = Knifelengh: 2-3cm / Handlelengh: 3-4cm
+		Length = Knifelengh: 28cm / Handlelengh: 11.5cm
+		Extensions {
+			BarbedWire = N/A
+		}
+	}
+}
+"Axe"
+        HitPerMinute = 
+		Weight = 
+		Width = 
+		SEITE
+		-------------
+		Höhe Zwischen den Ohren: 6,5cm 
+		Neckenhöhe:3,2cm 
+		Schneidenhöhe:12,9
+		OBEN
+		-------------
+		Gesamtbreite: 4cm
+		Oberflächenbreite: 3,7cm
+		Augenbreite: 3,0cm
+		Augenlänge: 4,5cm
+		Länge obere Bahn: 17,5cm
+		Gesamtlänge: 17,9cm
+
+		High =
+		Length = 85cm
+		Extensions {
+			BarbedWire = true
+		}
+	}
+}
+"Self made spear"
+        HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = N/A
+		}
+	}
+}
+"Hunting Knife"
+		HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = N/A
+		}
+	}
+}
+"Knife"
+		HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = N/A
+		}
+	}
+}
+""Tactical Knife"
+		HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = N/A
+		}
+	}
+}
