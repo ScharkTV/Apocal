@@ -1,28 +1,29 @@
-Melee 
+Melee {
 	"Baseball bat" {
 		HitPerMinute = 
 		Weight = 800g
-		Width =3-4cm 
-		High = 3-4cm
+		Width =3cm 
+		High = 3cm
 		Length = 107cm
 		Extensions {
 			BarbedWire = true
 		}
 	}
 }
-"Nightstick" 
+
+"Nightstick" {
 		HitPerMinute = 
-		Weight = 300-350g
-		Width = 3-4cm
-		High =3-4cm 
-		Length = 50-70cm
+		Weight = 300g
+		Width = 4cm
+		High =3cm 
+		Length = 70cm
 		Extensions {
 			BarbedWire = true
 		}
 	}
 }
-Crowba
-        HitPerMinute = 
+"Crowbar" {
+		HitPerMinute = 
 		Weight = 2,6kg
 		Width = 
 		High = 
@@ -32,99 +33,85 @@ Crowba
 		}
 	}
 }
-"Golf club""
-        HitPerMinute = 
+"Golf club" {
+		HitPerMinute = 
 		Weight = 
 		Width = 
 		High =
 		Length = 
 		Extensions {
-			BarbedWire = N/A
+			BarbedWire = true
 		}
 	}
 }
-"Hammer"
-        HitPerMinute = 
+"Hammer" {
+		HitPerMinute = 
 		Weight = 
 		Width = 
 		High =
 		Length = 
 		Extensions {
-			BarbedWire = N/A
+			BarbedWire = true
 		}
 	}
 }
-"Hatchet"
-        HitPerMinute = 
+"Hatchet" {
+		HitPerMinute = 
 		Weight = 
 		Width = 
 		High =
 		Length = 
 		Extensions {
-			BarbedWire = N/A
+			BarbedWire = false
 		}
 	}
 }
-"Machete"
-        HitPerMinute = 
+"Machete" {
+		HitPerMinute = 
 		Weight = 
 		Width = 
 		High =
 		Length = 
 		Extensions {
-			BarbedWire = N/A
+			BarbedWire = true
 		}
 	}
 }
-"Wrench"
-        HitPerMinute = 
+"Wrench" {
+		HitPerMinute = 
 		Weight = 
 		Width = 
 		High =
 		Length = 
 		Extensions {
-			BarbedWire = N/A
+			BarbedWire = false
 		}
 	}
 }
-"Katana"
-        HitPerMinute = 
-		Weight = 
-		Width = 0,2-0,4cm / 0.1-0.3cm
-		High = Knifelengh: 2-3cm / Handlelengh: 3-4cm
-		Length = Knifelengh: 28cm / Handlelengh: 11.5cm
+"Katana" {
+		HitPerMinute = 
+		Weight = 1200g 
+		Width = 0,2mm
+		High = Knifelengh: 3cm / Handlelengh: 4cm
+		Length = 70cm
 		Extensions {
-			BarbedWire = N/A
+			BarbedWire = true
 		}
 	}
 }
-"Axe"
-        HitPerMinute = 
-		Weight = 
-		Width = 
-		SEITE
-		-------------
-		Höhe Zwischen den Ohren: 6,5cm 
-		Neckenhöhe:3,2cm 
-		Schneidenhöhe:12,9
-		OBEN
-		-------------
-		Gesamtbreite: 4cm
-		Oberflächenbreite: 3,7cm
-		Augenbreite: 3,0cm
-		Augenlänge: 4,5cm
-		Länge obere Bahn: 17,5cm
-		Gesamtlänge: 17,9cm
-
-		High =
-		Length = 85cm
+"Axe" {
+		HitPerMinute = 
+		Weight = 1kg
+		Width = 2cm
+		High = 5cm
+		Length = 45cm
 		Extensions {
 			BarbedWire = true
 		}
 	}
 }
 "Self made spear"
-        HitPerMinute = 
+		HitPerMinute = 
 		Weight = 
 		Width = 
 		High =
@@ -136,10 +123,10 @@ Crowba
 }
 "Hunting Knife"
 		HitPerMinute = 
-		Weight = 
+		Weight = 213,5g
 		Width = 
 		High =
-		Length = 
+		Length = 15,2 cm
 		Extensions {
 			BarbedWire = N/A
 		}
@@ -147,21 +134,21 @@ Crowba
 }
 "Knife"
 		HitPerMinute = 
-		Weight = 
-		Width = 
-		High =
-		Length = 
+		Weight = 213g
+		Width = Handlewidth: 1,5 cm / 
+		High = 2cm
+		Length = 15,2cm / Knifelengh: 9 cm / Handlelengh: 5,5 cm
 		Extensions {
-			BarbedWire = N/A
+			BarbedWire = false
 		}
 	}
 }
-""Tactical Knife"
+"Tactical Knife"
 		HitPerMinute = 
-		Weight = 
-		Width = 
-		High =
-		Length = 
+		Weight = 800g
+		Width = 1,5cm
+		High = 2cm
+		Length = 17cm
 		Extensions {
 			BarbedWire = N/A
 		}
