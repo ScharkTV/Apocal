@@ -1,0 +1,210 @@
+World/Map {
+	Military base
+	Airport
+	Poilice department
+	Fire department
+	Military checkpoint
+	Secret military bases
+	Free time park
+	Building market
+	Supermarket
+	Gun shop
+	Gasstation
+	Refugee camps
+	Downtown 
+	Research labs
+
+}
+
+Cargo Pents {
+	Navy
+	Brown
+	Light brown
+	Green
+	Grey
+	Black
+	Green Camo
+	Black Camo
+	Grey Camo
+	Light brown camo
+	Brown Camo
+}
+
+Cargo Shirt {
+	Navy
+	Brown
+	Light brown
+	Green
+	Grey
+	Black
+}
+
+Army General Suite {
+	Black
+	Green
+}
+
+Jeans {
+	Blue
+	Grey
+	Black
+	Green
+	Red
+}
+
+Military helmet {
+	Brown
+	Green
+	Light brown
+	Black
+	Grey
+	Navy
+	Brown Camo
+	Green Camo
+	Light brown Camo
+	Black Camo
+	Grey Camo
+}
+
+Camo netting {
+	black
+	Green
+	Dark Green
+	Brown(Sand)
+}
+
+Ghillie suit {
+	green
+}
+
+Pullover {
+	
+}
+
+Jacket {
+	
+}
+
+Sneakers {
+	
+}
+
+Shorts {
+
+}
+
+Cargo shorts {
+	
+}
+
+T-Shirt {
+	
+}
+
+Cap {
+	
+}
+
+Sweatpants {
+	
+}
+
+Jersey Jacket {
+	
+}
+
+Cardigan {
+	
+}
+
+Jeans Jacket {
+	
+}
+
+Bikerjacket {
+	
+}
+
+Windbreaker {
+	
+}
+
+Steppjacket {
+	
+}
+
+Steel cap shoes {
+	
+}
+
+Bicycle gloves {
+	
+}
+
+Tactical gloves {
+	
+}
+
+Boxer gloves {
+	red
+	blue
+	black
+	grey
+	black/gold
+}
+
+Loop Scarf {
+	
+}
+
+Bandana {
+	
+}
+
+Head bandana {
+	
+}
+
+Motorcycle helmet {
+	
+}
+
+Nerd Glasses {
+	black
+	red
+	yellow
+	blue
+	green
+}
+
+Retro round Glasses {
+	
+}
+
+eye patch {
+	black
+	white
+}
+
+Sun Glasses {
+	
+}
+
+Necklace {
+	Silver
+	Gold
+}
+
+Gas mask {
+	
+}
+
+Quarantine suit {
+	
+}
+
+Cloth {
+
+}
+
+
