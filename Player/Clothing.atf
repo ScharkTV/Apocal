@@ -1,0 +1,8 @@
+Clothing {
+	Military {
+		"Army general suite" { "Black" , "Green" }
+		"Military helmet" { "Brown" , "Green" , "Light brown" , "Black" , "Grey" , "Navy" , "Brown camo" , "Green camo" , "Light brown camo" , "Black camo" , "Grey camo" }
+		"Cargo pents" { "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" , "Green camo" , "Black camo" , "Grey camo" , "Light brown camo" , "Brown camo" }
+		"Cargo Shirt" { "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" }
+	}
+}

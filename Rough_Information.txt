@@ -13,35 +13,6 @@ World/Map {
 	Refugee camps
 	Downtown 
 	Research labs
-
-}
-
-Cargo Pents {
-	Navy
-	Brown
-	Light brown
-	Green
-	Grey
-	Black
-	Green Camo
-	Black Camo
-	Grey Camo
-	Light brown camo
-	Brown Camo
-}
-
-Cargo Shirt {
-	Navy
-	Brown
-	Light brown
-	Green
-	Grey
-	Black
-}
-
-Army General Suite {
-	Black
-	Green
 }
 
 Jeans {
@@ -50,20 +21,6 @@ Jeans {
 	Black
 	Green
 	Red
-}
-
-Military helmet {
-	Brown
-	Green
-	Light brown
-	Black
-	Grey
-	Navy
-	Brown Camo
-	Green Camo
-	Light brown Camo
-	Black Camo
-	Grey Camo
 }
 
 Camo netting {
