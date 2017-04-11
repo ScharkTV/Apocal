@@ -3,7 +3,7 @@ Weight = Gramm
 
 Melee {
 	"Baseball bat" {
-		HitPerMinute = 
+		HitPerMinute = N/A
 		Weight = 800
 		Width =3 
 		High = 3
@@ -11,26 +11,25 @@ Melee {
 		Extensions {
 			BarbedWire = true
 			Nails = true
-			Cloth = false 
-			Cutting saw blade = true 
+			OiledCloth = false 
+			CuttingSawBlade = true 
 		}
 	}
-
-"Nightstick" {
-		HitPerMinute = 
+	"Nightstick" {
+		HitPerMinute = N/A
 		Weight = 300
 		Width = 4
 		High =3 
 		Length = 70
 		Extensions {
-			BarbedWire = true
+			BarbedWire = false
 			Nails = false
-			Cloth = false
-			Cutting saw blade = false 
+			OiledCloth = false
+			CuttingSawBlade = false 
 		}
 	}
-"Crowbar" {
-		HitPerMinute = 
+	"Crowbar" {
+		HitPerMinute = N/A
 		Weight = 2600
 		Width = 3
 		High = 3
@@ -38,12 +37,12 @@ Melee {
 		Extensions {
 			BarbedWire = false
 			Nails = false 
-			Cloth = true
-			Cutting saw blade = false 
+			OiledCloth = true
+			CuttingSawBlade = false 
 		}
 	}
-"Golf club" {
-		HitPerMinute = 
+	"Golf club" {
+		HitPerMinute = N/A
 		Weight = 500
 		Width = 2
 		High = 2
@@ -51,12 +50,12 @@ Melee {
 		Extensions {
 			BarbedWire = false
 			Nails = false
-			Cloth = true
-			Cutting saw blade =false
+			OiledCloth = false
+			CuttingSawBlade =false
 		}
 	}
-"Hammer" {
-		HitPerMinute = 
+	"Hammer" {
+		HitPerMinute = N/A
 		Weight = 1000
 		Width = 2
 		High = 3
@@ -64,79 +63,79 @@ Melee {
 		Extensions {
 			BarbedWire = false
 			Nails = false
-			Cloth = true
-			Cutting saw blade = false
+			OiledCloth = false
+			CuttingSawBlade = false
 		}
 	}
-"Hatchet" {
-		HitPerMinute = 
+	"Hatchet" {
+		HitPerMinute = N/A
 		Weight = 1300
 		Width = 2
-		High = 2,5
+		High = 2.5
 		Length = 25
 		Extensions {
 			BarbedWire = false
 			Nails =false
-			Cloth =true
-			Cutting saw blade =false
+			OiledCloth =true
+			CuttingSawBlade =false
 		}
 	}
 
-"Machete" {
-		HitPerMinute = 
+	"Machete" {
+		HitPerMinute = N/A
 		Weight = 1000
 		Width = N/A
 		High = N/A
-		Length = 70cm
+		Length = 70
 		Extensions {
 			BarbedWire = false
 			Nails =false
-			Cloth =true
-			Cutting saw blade = false
+			OiledCloth =false
+			CuttingSawBlade = false
 		}
 	}
 
-"Wrench" {
-		HitPerMinute = 
-		Weight = 1
+	"Wrench" {
+		HitPerMinute = N/A
+		Weight = 1000
 		Width = 150 
 		High = 7
 		Length = 17 
 		Extensions {
 			BarbedWire = false
 			Nails = false
-			Cloth = false
-			Cutting saw blade = false
+			OiledCloth = false
+			CuttingSawBlade = false
 		}
 	}
-"Katana" {
-		HitPerMinute = 
+	"Katana" {
+		HitPerMinute = N/A
 		Weight = 1200
-		Width = 0,2
+		Width = 0.2
 		High = 3
 		Length = 70
 		Extensions {
 			BarbedWire = true
 			Nails = false
-			Cloth = true
-			Cutting saw blade = false
+			OiledCloth = false
+			CuttingSawBlade = false
 		}
 	}
-"Axe" {
-		HitPerMinute = 
+	"Axe" {
+		HitPerMinute = N/A
 		Weight = 1000
 		Width = 2
 		High = 5
 		Length = 45
 		Extensions {
-			BarbedWire = true
+			BarbedWire = false
 			Nails = false
-			Cloth = true
-			Cutting saw blade = false
+			OiledCloth = true
+			CuttingSawBlade = false
 		}
 	}
-"Self made spear"
-		HitPerMinute = 
+	"Self made spear" {
+		HitPerMinute = N/A
 		Weight = 500
 		Width = 3
 		High = 3
@@ -144,46 +143,46 @@ Melee {
 		Extensions {
 			BarbedWire = false
 			Nails = false
-			Cloth = false 
-			Cutting saw blade = true
+			OiledCloth = false 
+			CuttingSawBlade = false
 		}
 	}
-"Hunting Knife"
-		HitPerMinute = 
+	"Hunting Knife" {
+		HitPerMinute = N/A
 		Weight = 2130
 		Width = N/A
 		High = N/A
-		Length = 15,2 
+		Length = 15 
 		Extensions {
 			BarbedWire = false
 			Nails = false
-			Cloth = true
-			Cutting saw blade = false
+			OiledCloth = false
+			CuttingSawBlade = false
 		}
 	}
-"Knife"
-		HitPerMinute = 
+	"Knife" {
+		HitPerMinute = N/A
 		Weight = 213
 		Width = 150 
 		High = 2
-		Length = 15,2 / Knifelengh: 9  / Handlelengh: 6,5 
+		Length = 15
 		Extensions {
 			BarbedWire = false
 			Nails = false
-			Cloth = true
-			Cutting saw blade = false
+			OiledCloth = false
+			CuttingSawBlade = false
 		}
 	}
-"Tactical Knife"
-		HitPerMinute = 
+	"Tactical Knife" {
+		HitPerMinute = N/A
 		Weight = 800
-		Width = 1,5
+		Width = 1.5
 		High = 2
 		Length = 17
 		Extensions {
 			BarbedWire = false
 			Nails = false
-			Cloth = true
-			Cutting saw blade = false
+			OiledCloth = false
+			CuttingSawBlade = false
 		}
 	}
