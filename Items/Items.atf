@@ -60,15 +60,12 @@ Items List {
 	"Plastic"
 	"Bandage"
 	"Rubbing alcohol"
-	"Water bottle"
-	"Cola can"
-	"Soda can"
-	"Food can"
 	"Wood"
 	"Wood planks"
-	"Backpack"
-	"Bigpack"
-	"Military backpack"
-	"Ambulance backpack"
-	"Fire department backpack"
+	"Cloth"
+	"Camo netting"{
+		"Black"
+		"Green"
+		"Sand brown"
+	}
 }

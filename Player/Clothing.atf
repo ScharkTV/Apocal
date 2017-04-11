@@ -1,8 +1,114 @@
 Clothing {
 	Military {
-		"Army general suite" { "Black" , "Green" }
-		"Military helmet" { "Brown" , "Green" , "Light brown" , "Black" , "Grey" , "Navy" , "Brown camo" , "Green camo" , "Light brown camo" , "Black camo" , "Grey camo" }
-		"Cargo pents" { "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" , "Green camo" , "Black camo" , "Grey camo" , "Light brown camo" , "Brown camo" }
-		"Cargo Shirt" { "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" }
+		"Military helmet"		{ "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" , "Green camo" , "Black camo" , "Grey camo" , "Light brown camo" , "Brown camo" }
+		"Cargo pents"		{ "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" , "Green camo" , "Black camo" , "Grey camo" , "Light brown camo" , "Brown camo" }
+		"Cargo shorts"		{ "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" , "Green camo" , "Black camo" , "Grey camo" , "Light brown camo" , "Brown camo" }
+		"Military vest"		{ "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" , "Green camo" , "Black camo" , "Grey camo" , "Light brown camo" , "Brown camo" }
+		"Military jacket"		{ "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" , "Green camo" , "Black camo" , "Grey camo" , "Light brown camo" , "Brown camo" }
+		"Military cap"		{ "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" , "Green camo" , "Black camo" , "Grey camo" , "Light brown camo" , "Brown camo" }
+		"Tactical gloves" 	{ "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" }
+		"Cargo Shirt"		{ "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" }
+		"Military Boots" 		{ "Brown" , "Light brown" , "Green" , "Black" }
+		"Army general suite"	{ "Black" , "Green" }
+		"Ghillie suit"		{ "Green" }
+		"Gas mask"		{ TYPE1 , TYPE2 }
 	}
+	Emergency {
+		FireDepartment {
+			"FireDepartment helmet"	{ "Black" }
+			"FireDepartment jacket"		{ "Black && Yellow lines" }
+			"FireDepartment belt"		{ "Black" }
+			"FireDepartment pents"		{ "Black && Yellow lines" }
+			"FireDepartment shoes"		{ "Black" }
+		}
+		Police {
+			"Police cap"		{ "Night blue" }
+			"Police jacket"		{ "Night blue" }	
+			"Police belt"		{ "Black" }
+			"Police pents"		{ "Night blue" }
+			"Police shoes"		{ "Black" }
+		}
+		Swat {
+			"SWAT helmet"		{ "Black" }
+			"SWAT Balaclava"	{ "Black" }
+			"SWAT jacket"		{ "Digital black camo" }
+			"SWAT vest"		{ "Black" }
+			"SWAT tactical gloves"	{ "Black" }
+			"SWAT pents"		{ "Digital black camo" }
+			"SWAT boots"		{ "Black" }
+		}
+		Ambulance {
+			"FireDepartment jacket"		{ "Orange && White lines" }
+			"FireDepartment pents"		{ "Orange && White lines" }
+			"FireDepartment shoes"		{ "Black" }
+			"Quarantine suit" 		{ "Yellow" }
+		}
+	}
+	Head {
+		"Bandana"		{ "Red" , "Black" , "Grey" , "Orange" , "Pink" , "Orange" , "Blue" , "White" , "Turquoise" , "" , "Navy" , "Brown" , "Light brown" , "Green" , "Grey" , "Black" , "Green camo" , "Black camo" , "Grey camo" , "Light brown camo" , "Brown camo" }
+		"Cap"			{ "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Lime" , "Black" , "Grey" , "White" }
+		"Eye patch"		{ "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Black" , "Grey" , "White" }
+		"Scarf"			{ "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Black" , "Grey" , "White" }
+		"Nerd glasses"		{ "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Black" , "Grey" , "White" }
+		"Motorcycle helmet"	{ "Black" , "Grey" , "Orange" , "Red" , "Blue" , "Black && White && Yellow" }
+		"Hippie glasses"		{ "Black" , "Red" , "Violet" , "Rainbow" , "Silver" , "Gold" }
+		"Retro round glasses"	{ "Black" , "Silver" , "Gold" }
+		"Sun glasses"		{ "Black" , "Silver" , "Gold" }
+		"Necklace"		{ "Silver" , "Gold" }
+	}
+	Body {
+		"T-shirt"			{ "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Lime" , "Black" , "Grey" , "White" }
+		"Long sleeve t-shirt"	{ "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Lime" , "Black" , "Grey" , "White" }
+		"Polo shirt"		{ "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Lime" , "Black" , "Grey" , "White" }
+		"Long sleeve polo shirt"	{ "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Lime" , "Black" , "Grey" , "White" }
+		"Tanktop"		{ "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Lime" , "Black" , "Grey" , "White" }
+		"Windbreaker"		{ "Black" , "Black && White" , "Green" , "Red" , "Brown" , "White" , "Black && Pink" , "Blue" , "Yellow" , "Black && Red" , "Green camo" , "Black camo" , "White && Orange" }
+		"Steppjacket"		{ "Black" , "Dark blue" , "Violet" , "Turquoise" , "Red" , "Lime" , "Yellow" , "Orange" }
+		"Jersey jacket"		{ "Black" , "Blue" , "Red" , "Green" , "Violet" , "White" }
+		"Cardigan"		{ "Black" , "King blue" , "White" , "Grey" }
+		"Jeans jacket"		{ "Black" , "Blue" , "Blue && Wool" }
+		"Bikerjacket"		{ "Black" , "Grey" , "Brown" }
+		"Biker gang jacket"	{ "Blue" , "Black" }
+	}
+	Hands {
+		"Bicycle gloves"		{ "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Lime" , "Black" , "Grey" , "White" }
+		"Boxer gloves"		{ "Red" , "Blue" , "Black" , "Grey" , "Black && Gold" }
+	}
+	Legs {
+		"Shorts"			{ "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Lime" , "Black" , "Grey" , "White" }
+		"Jeans"			{ "Blue" , "Grey" , "Black" , "Green" , "Red" }
+		"Sweatpants"		{ "Black" , "Grey" , "Pink" }
+		"Sweatshorts"		{ "Black" , "Grey" , "Pink" }
+	}
+	Feet {
+		"Sneakers"		{ "White" , "Black" , "White && Black" , "Red && White" , "Black && Brown" , "Blue && White" , "Green && White" }
+		"Steel cap shoes"	{ "Black" , "Brown" , "Black && Yellow" , "Black && Pink" }
+		"Rain boots"		{ "Black" , "Yellow" , "Red" , "Blue" , "Green" , "Violet" }
+		"Boots"			{ "Black" , "Brown" , "Red" , "Light brown" }
+		"Oxford shoes"		{ "Brown" , "Black" }
+	}
+	Backpacks {
+		"GYM bag" {
+			PAINT { "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Black" , "Grey" , "White" }
+		}
+		"Leather shoulder bag" {
+			PAINT { "Black" , "Grey" , "Blue" , "Brown" }
+		}
+		"Small backpack" {
+			PAINT { "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Black" , "Grey" , "White" }
+		}
+		"Big backpack" {
+			PAINT { "Red" , "Blue" , "Green" , "Pink" , "Violet" , "Orange" , "Yellow" , "Turquoise" , "Dark blue" , "Black" , "Grey" , "White" }
+		}
+		"Military backpack" {
+			PAINT { "Brown" , "Light brown" , "Green" , "Grey" , "Black" , "Green camo" , "Black camo" , "Grey camo" , "Light brown camo" , "Brown camo" }
+		}
+		"Ambulance backpack" {
+			PAINT { "Red && Black && Yellow lines" }
+		}
+		"Fire department backpack" {
+			PAINT { "Black && Yellow lines" }
+		}
+	}
+	"Pullover"		{ } // <-------------------------------------------------------------------------------
 }
