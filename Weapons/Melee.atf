@@ -1,189 +1,156 @@
-[ Width , Length , High ] = Centimeter
-Weight = Gramm
-
 Melee {
 	"Baseball bat" {
 		HitPerMinute = 
-		Weight = 800
-		Width =3 
-		High = 3
-		Length = 107
+		Weight = 800g
+		Width =3cm 
+		High = 3cm
+		Length = 107cm
 		Extensions {
 			BarbedWire = true
-			Nails = true
-			Cloth = false 
-			Cutting saw blade = true 
 		}
 	}
+}
 
 "Nightstick" {
 		HitPerMinute = 
-		Weight = 300
-		Width = 4
-		High =3 
-		Length = 70
-		Extensions {
-			BarbedWire = true
-			Nails = false
-			Cloth = false
-			Cutting saw blade = false 
-		}
-	}
-"Crowbar" {
-		HitPerMinute = 
-		Weight = 2600
-		Width = 3
-		High = 3
-		Length = 60
-		Extensions {
-			BarbedWire = false
-			Nails = false 
-			Cloth = true
-			Cutting saw blade = false 
-		}
-	}
-"Golf club" {
-		HitPerMinute = 
-		Weight = 500
-		Width = 2
-		High = 2
-		Length = 104
-		Extensions {
-			BarbedWire = false
-			Nails = false
-			Cloth = true
-			Cutting saw blade =false
-		}
-	}
-"Hammer" {
-		HitPerMinute = 
-		Weight = 1000
-		Width = 2
-		High = 3
-		Length = 30
-		Extensions {
-			BarbedWire = false
-			Nails = false
-			Cloth = true
-			Cutting saw blade = false
-		}
-	}
-"Hatchet" {
-		HitPerMinute = 
-		Weight = 1300
-		Width = 2
-		High = 2,5
-		Length = 25
-		Extensions {
-			BarbedWire = false
-			Nails =false
-			Cloth =true
-			Cutting saw blade =false
-		}
-	}
-
-"Machete" {
-		HitPerMinute = 
-		Weight = 1000
-		Width = N/A
-		High = N/A
+		Weight = 300g
+		Width = 4cm
+		High =3cm 
 		Length = 70cm
 		Extensions {
-			BarbedWire = false
-			Nails =false
-			Cloth =true
-			Cutting saw blade = false
+			BarbedWire = true
 		}
 	}
-
+}
+"Crowbar" {
+		HitPerMinute = 
+		Weight = 2,6kg
+		Width = 
+		High = 
+		Length = 60cm
+		Extensions {
+			BarbedWire = N/A
+		}
+	}
+}
+"Golf club" {
+		HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = true
+		}
+	}
+}
+"Hammer" {
+		HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = true
+		}
+	}
+}
+"Hatchet" {
+		HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = false
+		}
+	}
+}
+"Machete" {
+		HitPerMinute = 
+		Weight = 
+		Width = 
+		High =
+		Length = 
+		Extensions {
+			BarbedWire = true
+		}
+	}
+}
 "Wrench" {
 		HitPerMinute = 
-		Weight = 1
-		Width = 150 
-		High = 7
-		Length = 17 
+		Weight = 
+		Width = 
+		High =
+		Length = 
 		Extensions {
 			BarbedWire = false
-			Nails = false
-			Cloth = false
-			Cutting saw blade = false
 		}
 	}
+}
 "Katana" {
 		HitPerMinute = 
-		Weight = 1200
-		Width = 0,2
-		High = 3
-		Length = 70
+		Weight = 1200g 
+		Width = 0,2mm
+		High = Knifelengh: 3cm / Handlelengh: 4cm
+		Length = 70cm
 		Extensions {
 			BarbedWire = true
-			Nails = false
-			Cloth = true
-			Cutting saw blade = false
 		}
 	}
+}
 "Axe" {
 		HitPerMinute = 
-		Weight = 1000
-		Width = 2
-		High = 5
-		Length = 45
+		Weight = 1kg
+		Width = 2cm
+		High = 5cm
+		Length = 45cm
 		Extensions {
 			BarbedWire = true
-			Nails = false
-			Cloth = true
-			Cutting saw blade = false
 		}
 	}
+}
 "Self made spear"
 		HitPerMinute = 
-		Weight = 500
-		Width = 3
-		High = 3
-		Length = 160
+		Weight = 
+		Width = 
+		High =
+		Length = 
 		Extensions {
-			BarbedWire = false
-			Nails = false
-			Cloth = false 
-			Cutting saw blade = true
+			BarbedWire = N/A
 		}
 	}
+}
 "Hunting Knife"
 		HitPerMinute = 
-		Weight = 2130
-		Width = N/A
-		High = N/A
-		Length = 15,2 
+		Weight = 213,5g
+		Width = 
+		High =
+		Length = 15,2 cm
 		Extensions {
-			BarbedWire = false
-			Nails = false
-			Cloth = true
-			Cutting saw blade = false
+			BarbedWire = N/A
 		}
 	}
+}
 "Knife"
 		HitPerMinute = 
-		Weight = 213
-		Width = 150 
-		High = 2
-		Length = 15,2 / Knifelengh: 9  / Handlelengh: 6,5 
+		Weight = 213g
+		Width = Handlewidth: 1,5 cm / 
+		High = 2cm
+		Length = 15,2cm / Knifelengh: 9 cm / Handlelengh: 5,5 cm
 		Extensions {
 			BarbedWire = false
-			Nails = false
-			Cloth = true
-			Cutting saw blade = false
 		}
 	}
+}
 "Tactical Knife"
 		HitPerMinute = 
-		Weight = 800
-		Width = 1,5
-		High = 2
-		Length = 17
+		Weight = 800g
+		Width = 1,5cm
+		High = 2cm
+		Length = 17cm
 		Extensions {
-			BarbedWire = false
-			Nails = false
-			Cloth = true
-			Cutting saw blade = false
+			BarbedWire = N/A
 		}
 	}
+}
