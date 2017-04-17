@@ -1,0 +1,188 @@
+[ Width , Length , High ] = Centimeter
+Weight = Gramm
+
+Melee {
+	"Baseball bat" {
+		HitPerMinute = N/A
+		Weight = 800
+		Width =3 
+		High = 3
+		Length = 107
+		Extensions {
+			BarbedWire = true
+			Nails = true
+			OiledCloth = false 
+			CuttingSawBlade = true 
+		}
+	}
+	"Nightstick" {
+		HitPerMinute = N/A
+		Weight = 300
+		Width = 4
+		High =3 
+		Length = 70
+		Extensions {
+			BarbedWire = false
+			Nails = false
+			OiledCloth = false
+			CuttingSawBlade = false 
+		}
+	}
+	"Crowbar" {
+		HitPerMinute = N/A
+		Weight = 2600
+		Width = 3
+		High = 3
+		Length = 60
+		Extensions {
+			BarbedWire = false
+			Nails = false 
+			OiledCloth = true
+			CuttingSawBlade = false 
+		}
+	}
+	"Golf club" {
+		HitPerMinute = N/A
+		Weight = 500
+		Width = 2
+		High = 2
+		Length = 104
+		Extensions {
+			BarbedWire = false
+			Nails = false
+			OiledCloth = false
+			CuttingSawBlade =false
+		}
+	}
+	"Hammer" {
+		HitPerMinute = N/A
+		Weight = 1000
+		Width = 2
+		High = 3
+		Length = 30
+		Extensions {
+			BarbedWire = false
+			Nails = false
+			OiledCloth = false
+			CuttingSawBlade = false
+		}
+	}
+	"Hatchet" {
+		HitPerMinute = N/A
+		Weight = 1300
+		Width = 2
+		High = 2.5
+		Length = 25
+		Extensions {
+			BarbedWire = false
+			Nails =false
+			OiledCloth =true
+			CuttingSawBlade =false
+		}
+	}
+
+	"Machete" {
+		HitPerMinute = N/A
+		Weight = 1000
+		Width = N/A
+		High = N/A
+		Length = 70
+		Extensions {
+			BarbedWire = false
+			Nails =false
+			OiledCloth =false
+			CuttingSawBlade = false
+		}
+	}
+
+	"Wrench" {
+		HitPerMinute = N/A
+		Weight = 1000
+		Width = 150 
+		High = 7
+		Length = 17 
+		Extensions {
+			BarbedWire = false
+			Nails = false
+			OiledCloth = false
+			CuttingSawBlade = false
+		}
+	}
+	"Katana" {
+		HitPerMinute = N/A
+		Weight = 1200
+		Width = 0.2
+		High = 3
+		Length = 70
+		Extensions {
+			BarbedWire = true
+			Nails = false
+			OiledCloth = false
+			CuttingSawBlade = false
+		}
+	}
+	"Axe" {
+		HitPerMinute = N/A
+		Weight = 1000
+		Width = 2
+		High = 5
+		Length = 45
+		Extensions {
+			BarbedWire = false
+			Nails = false
+			OiledCloth = true
+			CuttingSawBlade = false
+		}
+	}
+	"Self made spear" {
+		HitPerMinute = N/A
+		Weight = 500
+		Width = 3
+		High = 3
+		Length = 160
+		Extensions {
+			BarbedWire = false
+			Nails = false
+			OiledCloth = false 
+			CuttingSawBlade = false
+		}
+	}
+	"Hunting Knife" {
+		HitPerMinute = N/A
+		Weight = 2130
+		Width = N/A
+		High = N/A
+		Length = 15 
+		Extensions {
+			BarbedWire = false
+			Nails = false
+			OiledCloth = false
+			CuttingSawBlade = false
+		}
+	}
+	"Knife" {
+		HitPerMinute = N/A
+		Weight = 213
+		Width = 150 
+		High = 2
+		Length = 15
+		Extensions {
+			BarbedWire = false
+			Nails = false
+			OiledCloth = false
+			CuttingSawBlade = false
+		}
+	}
+	"Tactical Knife" {
+		HitPerMinute = N/A
+		Weight = 800
+		Width = 1.5
+		High = 2
+		Length = 17
+		Extensions {
+			BarbedWire = false
+			Nails = false
+			OiledCloth = false
+			CuttingSawBlade = false
+		}
+	}

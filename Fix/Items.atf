@@ -1,0 +1,71 @@
+/*SpawnChance {
+	Chance {...}
+}
+
+OnClick {
+	Explode {...}
+	Throw {...}
+}
+
+Items {
+	$ItemGroup($parameter) {
+		"ItemName1" {
+			Durability = 100
+			SpawnChance = 4.2
+			Interaction {
+				OnClick.Explode
+			}
+		}
+		"ItemName2" {
+			Durability = 200
+			SpawnChance = 0
+			Crafting {
+				Items.ItemName1 +
+				Items.ItemName3
+			}
+			Interaction {
+				OnClick.Throw
+			}
+		}
+		"ItemName3" {
+			Durability = 100
+			SpawnChance = 7.6
+			OnDestroyItem.Drop {
+				Items.ItemName4 +
+				Items.ItemName1
+			}
+			Interaction {
+				OnClick.Throw
+			}
+		}
+		"ItemName4" {
+			Durability = 10
+			SpawnChance = 0
+			Get.ItemBy {
+				OnDestroyItem.ItemName3
+			}
+		}
+	}
+}*/
+
+Items List {
+	"Jerry Can"
+	"Flashlight"
+	"LED Flashlight" // https://goo.gl/DmGy5M
+	"Nails"
+	"Glass bottle"
+	"Rope"
+	"Iron"
+	"Rocks"
+	"Plastic"
+	"Bandage"
+	"Rubbing alcohol"
+	"Wood"
+	"Wood planks"
+	"Cloth"
+	"Camo netting"{
+		"Black"
+		"Green"
+		"Sand brown"
+	}
+}
