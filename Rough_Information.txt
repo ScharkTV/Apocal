@@ -14,3 +14,8 @@ World/Map {
 	Downtown 
 	Research labs
 }
+
+"Can of Grapes"
+"Can of Cherry"
+"Can of Beets"
+"Can of Punpkin"
