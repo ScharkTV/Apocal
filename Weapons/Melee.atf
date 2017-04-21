@@ -80,7 +80,6 @@ Melee {
 			CuttingSawBlade =false
 		}
 	}
-
 	"Machete" {
 		HitPerMinute = N/A
 		Weight = 1000
@@ -94,7 +93,6 @@ Melee {
 			CuttingSawBlade = false
 		}
 	}
-
 	"Wrench" {
 		HitPerMinute = N/A
 		Weight = 1000
