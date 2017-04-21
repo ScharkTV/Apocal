@@ -1,0 +1,55 @@
+Vehicles {
+	MOTORCYCLE {
+
+	}
+	SEDAN {
+
+	}
+	SUV {
+
+	}
+	TRUCK {
+
+	}
+	VAN {
+
+	}
+	LUXURY {
+
+	}
+	COUPE {
+
+	}
+	CONVERTIBLE {
+
+	}
+	BUSES {
+		PrisonBus
+		SchoolBus
+	}
+	EMERGANCY {
+		FireDepartmentTruck {
+
+		}
+	}
+	MILITARY {
+		MilitaryTruck {
+
+		}
+		MilitaryJeep {
+
+		}
+		Cougar4x4 {
+
+		}
+		MilitaryTank {
+			Weight = 
+			HorsePower = 
+			Width = 
+			High = 
+			Length = 
+			FuelCapacitance = 
+			Parts { Battery ,  }
+		}
+	}
+}

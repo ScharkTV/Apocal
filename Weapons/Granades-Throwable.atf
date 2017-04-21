@@ -1,9 +1,49 @@
-Flashbang
-Grenade
-Smoke grenade
-Molotov cocktail
-Claymore
-C4
-AT Mine
-Firework rockets
-Firework crackers
+ExplosionType [ BurstExplosion , Blinding ]
+
+GranadesThrowable {
+	"Flashbang" {
+		DetonatingFuse = 
+		DetonationRadius = 
+		ExplosionType = 
+	}
+	"Grenade" {
+		DetonatingFuse = 
+		DetonationRadius = 
+		ExplosionType = 
+	}
+	"Smoke grenade" {
+		DetonatingFuse = 
+		DetonationRadius = 
+		ExplosionType = 
+	}
+	"Molotov cocktail" {
+		DetonatingFuse = 
+		DetonationRadius = 
+		ExplosionType = 
+	}
+	"Claymore" {
+		DetonatingFuse = 
+		DetonationRadius = 
+		ExplosionType = 
+	}
+	"C4" {
+		DetonatingFuse = 
+		DetonationRadius = 
+		ExplosionType = 
+	}
+	"AT Mine" {
+		DetonatingFuse = 
+		DetonationRadius = 
+		ExplosionType = 
+	}
+	"Firework rockets" {
+		DetonatingFuse = 
+		DetonationRadius = 
+		ExplosionType = 
+	}
+	"Firework crackers" {
+		DetonatingFuse = 
+		DetonationRadius = 
+		ExplosionType = 
+	}
+}
