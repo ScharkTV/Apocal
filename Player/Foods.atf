@@ -55,7 +55,16 @@ Foods {
 }
 
 Meal {
-	"Pea soup"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-	"Potato soup"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-	"Lentil soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	"Pea soup" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+
+	}
+	"Potato soup" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+		
+	}
+	"Lentil soup" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+		
+	}
 }
