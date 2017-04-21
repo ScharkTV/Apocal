@@ -1,0 +1,54 @@
+RecoilReduction = 0
+Max.RecoilReduction = 100
+Accuracy = 0
+Max.Accuracy = 100
+Range = 0
+Max.Range = 100
+NoiseReduction = BOOLEAN
+
+WeaponAttachments {
+	RifleMuzzleAttachments {
+		"Flash hider" [ RecoilReduction + 0 , Accuracy + 0 , Range + 0 , NoiseReduction = false ]
+		"Muzzle Brake" [ RecoilReduction + 30 , Accuracy + 0 , Range + 0 , NoiseReduction = false ]
+		"Rifle suppressor" [ RecoilReduction + 10 , Accuracy + 10 , Range + 10 , NoiseReduction = true ]
+	}
+	PistolMuzzleAttachments {
+		"Pistol suppressor" [ RecoilReduction + 10 , Accuracy + 10 , Range + 10 , NoiseReduction = true ]
+	}
+	RifleGrips {
+		"Angled grip" [ RecoilReduction + 20 , Accuracy + 20 , Range + 0 , NoiseReduction = false ]
+		"Stubby grip" [ RecoilReduction + 10 , Accuracy + 10 , Range + 0 , NoiseReduction = false ]
+		"Vertical grip" [ RecoilReduction + 30 , Accuracy + 20 , Range + 0 , NoiseReduction = false ]
+		"Bipod grip" = Folded [ RecoilReduction + 10 , Accuracy + 10 , Range + 0 , NoiseReduction = false ]
+		if("Bipod grip" == Unfolded) {
+			"Bipod grip" [ RecoilReduction + 10 , Accuracy + 60 , Range + 0 , NoiseReduction = false ]
+		}
+	}
+	Other {
+		Lasers {
+			"Red laser sight"
+			"Green laser sight"
+		}
+		RifleScopes {
+			"Reflex sight"
+			"Holo sight"
+			"Kobra sight"
+			"M145"
+			"ACOG"
+			"PSO-1"
+			"PKA-S"
+			"Prisma scope"
+			"Self made scope type 1"
+			"Self made scope type 2"
+		}
+		PistolScopes {
+			"Delta sight"
+		}
+		TacticalLight {
+			"Tactical Light"
+			"Self made light attachment"
+		}
+		"M320"
+		"Bayonet"
+	}
+}
