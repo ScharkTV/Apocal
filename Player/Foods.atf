@@ -1,20 +1,32 @@
 Foods {
 	FoodCan {
-		"Can of peaches"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of beans"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of sausage"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of dog food"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of cat food"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of ravioli"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of corn"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of pears"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of tomato soup"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of tomatoes"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of peas"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of soybeans"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of pineapple "	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of carrots"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Can of broccoli"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of peaches" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of beans" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of sausage" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of dog food" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of cat food" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of ravioli" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of corn" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of pears" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of tomato soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of tomatoes" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of peas" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of soybeans" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of pineapple " { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"can of fruit Cocktail" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of salad Spice" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of onion" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of carrots" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of grilled Eggplants" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of artichok" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of rutabagas" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of olives" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of potatoes" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of cabbage" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of pepper" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of broccoli" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of melons" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Can of banana" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		// "xyz" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 	}
 	Dried {
@@ -24,6 +36,18 @@ Foods {
 		"Strawberrie chips"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Banana chips"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Peaches chips"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Meat dumplings soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	    "Chicken soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	    "Wedding soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	    "Egg shell soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	    "Kaiser soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	    "Asparagus soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	    "Oxtail soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	    "Forest mushroom soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	    "Mugs soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	    "Dried mango strips" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	    "Dried kiwi strips" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+
 	}
 	Cooked {
 		"Cooked noodles"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
@@ -36,6 +60,14 @@ Foods {
 		"Paprika"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Onion"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Garlic"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Sectional" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Melon" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Corns" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Pineapple" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Peas" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Beans" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Rutabagas" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Broccoli" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 	}
 	Spices {
 		"Parsley"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
@@ -52,3 +84,12 @@ Foods {
 Meal {
 	
 }
+		"Pea pot" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"ravioli" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Spaghetti" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Potato soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Lentil soup" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Spinach sticks" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+	}
+
+
