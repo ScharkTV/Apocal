@@ -18,6 +18,7 @@ Foods {
 	}
 	Dried {
 		"Bread"				{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Rice"				{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Noodles"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Potatoe chips"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Strawberrie chips"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
@@ -40,31 +41,125 @@ Foods {
 		"Onion"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Corns"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Peas"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Spinach"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }	
+		"Spinach"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Leek"			{Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Mushroom"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Zucchini"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 	}
 	Spices {
 		"Parsley"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Chives"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Chives"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Basil"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Salt"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Peper"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Pepper"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Oregano"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Sugar"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Vanilla"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Vanilla"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 	}
 }
 
 Meal {
 	"Pea soup" [ Quality = 0 , Durability = 0 ] {
-		// Ingredients
+		// Ingredients	
+	Can of Peas = 1,
+	Water = 1,
+	Vegetable broth = 1,
+	Sausage = 1,
+	Carrots = 2,
+	Potatoes = 2,
+	Onion = 1,
+	Pepper = 1,
 
 	}
 	"Potato soup" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-		
+	Chives = 1,
+	Potatoes = 2
+	Nutmeg = 1,
+	Salt = 1,
+
 	}
 	"Lentil soup" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-		
+	Lenses = 2,
+	Potatoes = 1,
+	Carrots = 1,
+	Leek = 1,
+	Beef broth = 1,
+	Vegetable broth = 1,
+	Chives = 1,
+	Salt = 1,
+	Pepper = 1,
+
 	}
-}
+	"Tomato soup" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+	Tomatoes = 5,
+	Onion = 1,
+	Leek = 1,
+	Parslay = 1,
+	Salt = 1,
+	Pepper = 1,
+	Vegetable broth = 1,
+
+	}
+	"Gulash soup" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+	Beef = 2,
+	Water = 1,
+	Paprika = 2,
+	Potatoes = 2,
+	Parslay = 1,
+	Salt = 1,
+	Onion = 1,
+	Mushroom = 1,
+
+	}
+	"Cucumber Salad" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+	Cucumber = 2,
+	Tomatoes = 1,
+	Mushroom = 1,
+	Salt = 1,
+	Pepper = 1,
+
+	}
+	"Basil Tomatoes Salad" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+	Basil = 2,
+	Tomatoes = 2,
+	Salt = 1,
+	Pepper = 1,
+
+	}
+	"Vegetable skewers" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+	Cucumber = 2,
+	Tomatoes = 2,
+	Corns = 2,
+	Onion =	2,
+	Mushroom = 2,
+	Paprika = 2,
+	Zucchini = 2,
+	Salt = 2,
+	Pepper = 2,
+
+	}
+	"Filled Paprika" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+	Paprika = 2,
+	Rice = 2,
+	Zucchini = 1,
+	Onion = 1,
+	Salt = 1,
+	Pepper = 1,	
+
+	}
+	"Noodles with Spinach" [ Quality = 0 , Durability = 0 ] {
+		//Ingredients
+	Noodles = 2,
+	Spinach = 1,
+	Tomatoes = 1,
+	Onion =	1,
+
+	}

@@ -1,22 +1,30 @@
-Foods {
+Food {
 	Water {
-		"Normal water"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Sparkling water"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Normal water"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Sparkling water"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"H-Milk"				{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 	}
 	SoftDrinks {
-		"Coke" { Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Sweet water"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Sparkling orange"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Orange coke"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Energy drink"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Lemon icetee"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Peach icetee"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Sweet water"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Sparkling lemon"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Coke"					{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Sweet water"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Sparkling orange"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Orange coke"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Energy drink"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Lemon icetee"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Peach icetee"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Orange icetee"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Mango peach icetee"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Sweet water"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Sparkling lemon"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Woody shower"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Lemon fruit scorch"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] } 
+		"Apple fruit scorch"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Orange fruit scorch"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Lemon limo"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		// "xyz"{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 	}
 	Juice {
-		"Juice of tomatoes"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Juice of tomatoes"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Juice of lemon"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 	}
 }
