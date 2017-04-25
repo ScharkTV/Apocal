@@ -20,8 +20,8 @@ Foods {
 		"Bread"				{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Rice"				{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Noodles"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Potatoe chips"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Strawberrie chips"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Potato chips"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Strawberry chips"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Banana chips"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Peaches chips"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Chicken soup powder"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
@@ -31,6 +31,7 @@ Foods {
 	}
 	Cooked {
 		"Cooked noodles"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
+		"Cooked rice"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 	}
 	Plantable {
 		"Tomatoes"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
@@ -103,7 +104,7 @@ Meal {
 	Vegetable broth = 1,
 
 	}
-	"Gulash soup" [ Quality = 0 , Durability = 0 ] {
+	"Goulash soup" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
 	Beef = 2,
 	Water = 1,
@@ -156,10 +157,62 @@ Meal {
 
 	}
 	"Noodles with Spinach" [ Quality = 0 , Durability = 0 ] {
-		//Ingredients
+		// Ingredients
 	Noodles = 2,
 	Spinach = 1,
 	Tomatoes = 1,
 	Onion =	1,
+
+	}
+	"Fried vegetables" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+	Tomatoes = 1,
+	Cucumber = 1,
+	Carrots = 2,
+	Paprika = 1,
+	Onion= 2,
+	Potato = 1,
+	Corns = 1,
+	Mushroom = 1,
+	Zucchini = 2,
+	Salt = 1,
+	Pepper = 1,
+	Oregano = 1,
+
+	}
+	"Mushroom soup" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+	Mushroom = 3,
+	Water = 1,
+	Chicken soup powder = 1
+	Mushroom soup powder = 1
+	Onion = 1,
+	Leek = 1,
+	Salt = 1,
+	Pepper = 1,
+
+	}
+	"Rice with vegetables" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+	Rice = 1
+	Leek = 1
+	Paprika = 1
+	Carrots = 1
+	Onion = 1
+	Water = 1
+	Chicken soup powder = 1
+	Salt = 1
+	Pepper = 1
+	Parsley = 1
+
+	}
+	"Kaiser soup" [ Quality = 0 , Durability = 0 ] {
+		// Ingredients
+	Water = 1,
+	Carrots = 1,
+	Onion = 1,
+	Potato = 1,
+	Can of sausage = 1,
+	Kaiser soup powder = 1,
 
 	}
