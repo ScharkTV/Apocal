@@ -15,7 +15,29 @@ World/Map {
 	Research labs
 }
 
-"Can of Grapes"
-"Can of Cherry"
-"Can of Beets"
-"Can of Punpkin"
+Can opener
+Plate
+Glass
+Key
+Bottle
+Deo
+Aluminum foil
+Paper
+Phone
+Alarm clock
+Lamp
+Clamp
+Phone
+Stone
+Blanket
+Antibiotic
+Association
+Belt
+Grill lighter
+Can
+Shopping bags
+Leaves
+Magnifying glass
+World globe with stands
+Card
+Map carddddd
