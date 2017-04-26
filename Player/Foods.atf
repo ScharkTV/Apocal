@@ -27,7 +27,6 @@ Foods {
 		"Chicken soup powder"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Kaiser soup powder"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Mushroom soup powder"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-
 	}
 	Cooked {
 		"Cooked noodles"	{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
@@ -43,9 +42,7 @@ Foods {
 		"Corns"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Peas"			{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Spinach"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Leek"			{Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 		"Mushroom"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
-		"Zucchini"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
 	}
 	Spices {
 		"Parsley"		{ Quality = 0 , Durability = 0 , SpawnChance = 0 , SpawnQuantity = [SpawnQuantityMin = 1 , SpawnQuantityMax = 1] }
@@ -62,157 +59,134 @@ Foods {
 Meal {
 	"Pea soup" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients	
-	Can of Peas = 1,
-	Water = 1,
-	Vegetable broth = 1,
-	Sausage = 1,
-	Carrots = 2,
-	Potatoes = 2,
-	Onion = 1,
-	Pepper = 1,
-
+		"Can of Peas" = 1,
+		"Water" = 1,
+		"Vegetable broth" = 1,
+//----------------------!!!! "Sausage" = 1,
+		"Carrots" = 2,
+		"Potatoes" = 2,
+		"Onion" = 1,
+		"Pepper" = 1
 	}
 	"Potato soup" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Chives = 1,
-	Potatoes = 2
-	Nutmeg = 1,
-	Salt = 1,
-
+		"Chives" = 1,
+		"Potatoes" = 2,
+		"Salt" = 1
 	}
 	"Lentil soup" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Lenses = 2,
-	Potatoes = 1,
-	Carrots = 1,
-	Leek = 1,
-	Beef broth = 1,
-	Vegetable broth = 1,
-	Chives = 1,
-	Salt = 1,
-	Pepper = 1,
-
+		"Potatoes" = 1,
+		"Carrots" = 1,
+		"Beef broth" = 1,
+		"Vegetable broth" = 1,
+		"Chives" = 1,
+		"Salt" = 1,
+		"Pepper" = 1
 	}
 	"Tomato soup" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Tomatoes = 5,
-	Onion = 1,
-	Leek = 1,
-	Parslay = 1,
-	Salt = 1,
-	Pepper = 1,
-	Vegetable broth = 1,
-
+		"Tomatoes" = 5,
+		"Onion" = 1,
+		"Parslay" = 1,
+		"Salt" = 1,
+		"Pepper" = 1,
+		"Vegetable broth" = 1
 	}
 	"Goulash soup" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Beef = 2,
-	Water = 1,
-	Paprika = 2,
-	Potatoes = 2,
-	Parslay = 1,
-	Salt = 1,
-	Onion = 1,
-	Mushroom = 1,
-
+//----------------------!!!! "Beef" = 2,
+		"Water" = 1,
+		"Paprika" = 2,
+		"Potatoes" = 2,
+		"Parslay" = 1,
+		"Salt" = 1,
+		"Onion" = 1,
+		"Mushroom" = 1
 	}
 	"Cucumber Salad" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Cucumber = 2,
-	Tomatoes = 1,
-	Mushroom = 1,
-	Salt = 1,
-	Pepper = 1,
-
+		"Cucumber" = 2,
+		"Tomatoes" = 1,
+		"Mushroom" = 1,
+		"Salt" = 1,
+		"Pepper" = 1
 	}
 	"Basil Tomatoes Salad" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Basil = 2,
-	Tomatoes = 2,
-	Salt = 1,
-	Pepper = 1,
-
+		"Basil" = 2,
+		"Tomatoes" = 2,
+		"Salt" = 1,
+		"Pepper" = 1
 	}
 	"Vegetable skewers" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Cucumber = 2,
-	Tomatoes = 2,
-	Corns = 2,
-	Onion =	2,
-	Mushroom = 2,
-	Paprika = 2,
-	Zucchini = 2,
-	Salt = 2,
-	Pepper = 2,
-
+		"Cucumber" = 2,
+		"Tomatoes" = 2,
+		"Corns" = 2,
+		"Onion" = 2,
+		"Mushroom" = 2,
+		"Paprika" = 2,
+		"Salt" = 2,
+		"Pepper" = 2
 	}
 	"Filled Paprika" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Paprika = 2,
-	Rice = 2,
-	Zucchini = 1,
-	Onion = 1,
-	Salt = 1,
-	Pepper = 1,	
-
+		"Paprika" = 2,
+		"Rice" = 2,
+		"Onion" = 1,
+		"Salt" = 1,
+		"Pepper" = 1
 	}
 	"Noodles with Spinach" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Noodles = 2,
-	Spinach = 1,
-	Tomatoes = 1,
-	Onion =	1,
-
+		"Noodles" = 2,
+		"Spinach" = 1,
+		"Tomatoes" = 1,
+		"Onion" = 1
 	}
 	"Fried vegetables" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Tomatoes = 1,
-	Cucumber = 1,
-	Carrots = 2,
-	Paprika = 1,
-	Onion= 2,
-	Potato = 1,
-	Corns = 1,
-	Mushroom = 1,
-	Zucchini = 2,
-	Salt = 1,
-	Pepper = 1,
-	Oregano = 1,
-
+		"Tomatoes" = 1,
+		"Cucumber" = 1,
+		"Carrots" = 2,
+		"Paprika" = 1,
+		"Onion" = 2,
+		"Potato" = 1,
+		"Corns" = 1,
+		"Mushroom" = 1,
+		"Salt" = 1,
+		"Pepper" = 1,
+		"Oregano" = 1
 	}
 	"Mushroom soup" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Mushroom = 3,
-	Water = 1,
-	Chicken soup powder = 1
-	Mushroom soup powder = 1
-	Onion = 1,
-	Leek = 1,
-	Salt = 1,
-	Pepper = 1,
-
+		"Mushroom" = 3,
+		"Water" = 1,
+		"Chicken soup powder" = 1
+		"Mushroom soup powder" = 1
+		"Onion" = 1,
+		"Salt" = 1,
+		"Pepper" = 1
 	}
 	"Rice with vegetables" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Rice = 1
-	Leek = 1
-	Paprika = 1
-	Carrots = 1
-	Onion = 1
-	Water = 1
-	Chicken soup powder = 1
-	Salt = 1
-	Pepper = 1
-	Parsley = 1
-
+		"Rice" = 1,
+		"Paprika" = 1,
+		"Carrots" = 1,
+		"Onion" = 1,
+		"Water" = 1,
+		"Chicken soup powder" = 1,
+		"Salt" = 1,
+		"Pepper" = 1,
+		"Parsley" = 1
 	}
 	"Kaiser soup" [ Quality = 0 , Durability = 0 ] {
 		// Ingredients
-	Water = 1,
-	Carrots = 1,
-	Onion = 1,
-	Potato = 1,
-	Can of sausage = 1,
-	Kaiser soup powder = 1,
-
+		"Water" = 1,
+		"Carrots" = 1,
+		"Onion" = 1,
+		"Potato" = 1,
+		"Can of sausage" = 1,
+		"Kaiser soup powder" = 1
 	}

@@ -15,29 +15,25 @@ World/Map {
 	Research labs
 }
 
-Can opener
-Plate
-Glass
-Key
-Bottle
-Deo
-Aluminum foil
-Paper
-Phone
-Alarm clock
-Lamp
-Clamp
-Phone
-Stone
-Blanket
-Antibiotic
-Association
-Belt
-Grill lighter
-Can
-Shopping bags
-Leaves
-Magnifying glass
-World globe with stands
-Card
-Map carddddd
+Plate				--------------------?!
+Glass				|
+Key				--------------------?!
+Bottle				--------------------?!
+Aluminum foil			|
+Paper				|
+Alarm clock			|
+Lamp				|
+Clamp				--------------------?!
+Stone				--------------------?!
+Blanket				--------------------?!
+Antibiotic			|
+Association			--------------------?!
+Belt				--------------------?!
+Grill lighter			--------------------?!
+Can				--------------------?!
+Shopping bags			--------------------?!
+Leaves				--------------------?!
+Magnifying glass		--------------------?!
+World globe with stands		--------------------?!
+Card				--------------------?!
+Map carddddd			--------------------?!
