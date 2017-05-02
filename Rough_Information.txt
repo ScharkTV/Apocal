@@ -16,24 +16,76 @@ World/Map {
 }
 
 Plate				--------------------?!
-Glass				|
+Glass
 Key				--------------------?!
 Bottle				--------------------?!
 Aluminum foil			|
 Paper				|
 Alarm clock			|
 Lamp				|
-Clamp				--------------------?!
-Stone				--------------------?!
-Blanket				--------------------?!
 Antibiotic			|
-Association			--------------------?!
-Belt				--------------------?!
 Grill lighter			--------------------?!
-Can				--------------------?!
-Shopping bags			--------------------?!
 Leaves				--------------------?!
 Magnifying glass		--------------------?!
-World globe with stands		--------------------?!
-Card				--------------------?!
-Map carddddd			--------------------?!
+Card
+Waterskin
+Selfmade backpack
+Sand bag
+Campfire
+Barbed wire
+Wheel
+Drying rack
+Torch
+Arrow
+Bear trap
+Sleeping bag
+Paintbrush
+Compass
+Spyglass
+Parachut
+Fishing Rod
+GPS
+Canteen
+Spray painter
+Slingshot
+Bones
+Fur
+Rocket
+Scales
+Wood Logs
+Leaves
+Anti-radioactive pills
+Seeds
+Dynamite
+Pipe bomb
+Molotov
+Taser
+Wooden Baricade
+Sign
+Fish trap
+Reactive target
+Coal
+Rock
+Bucket
+Bandage
+Larg Medkit
+Medical syringe
+Belt
+Can opener
+Plate
+Key
+Bottle
+Aluminum foil
+Paper
+Phone
+Alarm
+Lamp
+Antibiotic
+Grill lighter
+Magnifying glass
+Card
+Tennis Ball
+Electric wire
+Battery
+Duct tape
+Metal pipe
